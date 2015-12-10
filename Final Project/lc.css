@@ -1,0 +1,182 @@
+
+.container {
+background-color: #F2F1EB;
+margin: auto;
+width: 960px;
+padding-top: 10px;
+overflow: hidden;
+border: 3px solid #C29D2E;
+padding-left: 10px;
+padding-right: 10px;
+font-family: "Times New Roman", Georgia, Serif;
+}
+
+body{
+  background-color: black;
+  text-align: center;
+
+}
+
+h1 {
+  margin: 0;
+}
+
+h1 a:link {
+  display: block;
+  color: white;
+  text-align: center;
+  background: url("banner.jpg") no-repeat center bottom;
+  width: 934px;
+  height: 250px;
+  text-indent: -9000px;
+  font-size: 0;
+  margin: 0;
+}
+
+nav {
+  background-color: #214700;
+  width: 100%;
+  overflow: auto;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+
+.nav1 li {
+    display: inline;
+    float: left;
+}
+
+.nav1 a {
+    display: block;
+    width: 180px;
+    text-decoration: none;
+    color: #fff;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    background-color: #214700;
+}
+
+.nav1 a:hover{
+  background-color: #449100;
+}
+
+
+
+.homefeed{
+  margin: 0 auto;
+  overflow: hidden;
+  padding-top: 10px;
+  padding-bottom: 10px;
+
+}
+
+
+.three-col div {
+  float: left;
+  width: 310px;
+  display: inline-block;
+  border: 3px solid black;
+  background-color: #C29D2E;
+
+}
+
+.myCarousel div {
+  width: 100%;
+  padding-bottom: 10px;
+}
+
+.coach {
+  text-align: center;
+  padding-top: 8px;
+  list-style-type: none;
+  padding-bottom: 8px;
+  background-color: #214700;
+  color: white;
+
+}
+
+.news h2{
+  padding-top: 10px;
+  padding-bottom: 10px;
+  color: white;
+  background-color: #C29D2E;
+}
+
+.news {
+  padding-bottom: 20px;
+
+}
+
+
+.link{
+  list-style-type: none;
+}
+
+
+
+.link a:link{
+  color: #214700;
+  text-decoration: none;
+  font-weight: bolder;
+}
+
+.link a:visited{
+  color: #C29D2E;
+
+}
+
+.mediaheader h2 {
+  color: white;
+  background-color: #C29D2E;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.schedule{
+  padding-bottom: 20px;
+}
+
+.articleone{
+  padding: 10px;
+  border: 2px solid #214700;
+}
+.articletwo{
+  background: #A2B8AB;
+  padding: 10px;
+
+}
+
+.gallery img{
+  width: 290px;
+  margin: 5px;
+
+}
+
+.parents {
+  padding-top: 5px;
+  padding-bottom: 20px;
+}
+
+.parents h2{
+  background-color: #C29D2E;
+  color: white;
+}
+
+
+@media screen and (max-width: 480px) {
+    .container {
+        background-color: silver;
+        font-size: small;
+    }
+}
+
+@media screen and (max-width: 720px) {
+    .container {
+        font-size: 1;
+    }
+}
